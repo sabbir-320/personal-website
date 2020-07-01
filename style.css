@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/*section -one*/
+#section-one {
+  background-image: url("header-bg.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+.area-design-1 {
+  width: 40%;
+  float: left;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+.area-design-2 {
+  width: 45%;
+  float: left;
+  margin-top: -5.5%;
+  margin-left: 3%;
+}
+.text-highlight {
+  color: #ec4c7a;
+}
+.link-design {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ee628c, #ec4c7a);
+  border-radius: 5px;
+  color: wheat;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.area-design-2 img {
+  width: 100%;
+}
+/*section -two*/
+#section-two {
+  background-image: url("biography-bg.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+/*section -three*/
+#section-three {
+  background-image: url("latest-work-bg.png");
+  background-position: right;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}
+.alignment {
+  text-align: center;
+  margin-top: -0%;
+}
+.latest-work-area {
+  width: 26.66%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.latest-work-area-2 {
+  margin-left: 109px;
+}
+.latest-work-area img {
+  width: 100%;
+}
+/*section -four*/
+#section-4 {
+  display: inline-block;
+  margin-bottom: 14%;
+}
+.box-shadow {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 285px;
+}
+#border-deign-1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #5AE781, #38E19F);
+  border-image-slice: 1;
+  background-color: white;
+}
+#border-deign-2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #5F5AF3, #7672F4);
+  border-image-slice: 1;
+}
+#border-deign-3 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #FDB02A, #FE9E52);
+    border-image-slice: 1;
+  }
+
+/* footer {
+  background-image: url("footer-bg.png");
+  background-position:left ;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+}  */
+.alignment-2 {
+  text-align: center;
+}
+#near-to-Jhankar {
+  margin-top: 2px;
+  margin-top: -18px;
+}
+#near-to-ceo {
+  margin-top: 15px;
+}
+#mail-design {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ee628c, #ec4c7a);
+  border-radius: 5px;
+  color: wheat;
+  font-weight: 700;
+  padding: 50px 70px;
+}
+#mail-design-1{
+    margin-left: 28%;
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 55px;
+}
