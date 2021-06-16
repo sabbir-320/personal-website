@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue";
+}
+/* variables */
+$primary-color: #363958;
+$secondary-color: #ff8367;
+$text-color: #3e3e3e;
+$btn-color: linear-gradient(#f46060, #ff8063);
+
+/* all element */
+h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: $primary-color;
+  line-height: 60px;
+}
+
+span {
+  color: $secondary-color;
+}
+
+button {
+  border: none;
+  background-image: $btn-color;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 300;
+}
+p {
+  color: $text-color;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+}
+/** nav **/
+nav {
+  text-align: end;
+  padding: 20px 10px;
+  a {
+    text-decoration: none;
+    color: var(--textColor);
+    padding: 0 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+
+/** header **/
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  img {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+}
+/** About **/
+.about {
+  img {
+    margin: 0;
+  }
+}
+
+/**Projects  **/
+.projects {
+  margin: 100px 0;
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.cart-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.cart {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-body {
+  padding: 30px 10px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--headingColor1);
+    margin: 10px 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 0;
+  }
+}
+/** work inquiry **/
+.inquiry {
+  position: relative;
+}
+
+.inquiry img {
+  width: 100%;
+}
+
+.inquiry div {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 30px;
+  color: #fff;
+}
+
+.inquiry button {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+/** footer **/
+.footer {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer span {
+  color: #6c6c6c;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+.footer img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+// Media query
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+  .header {
+    grid-template-columns: 100%;
+  }
+  .about {
+    img {
+      margin: auto;
+      display: block;
+    }
+  }
+  .cart-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
